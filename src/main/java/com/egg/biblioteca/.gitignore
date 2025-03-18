@@ -1,0 +1,52 @@
+# HELP.md y otros archivos innecesarios
+HELP.md
+
+# Build
+/target
+/build
+*.jar
+*.war
+
+# Maven
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDEs: STS, IntelliJ, NetBeans, VSCode
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/.vscode
+
+# Archivos de configuración sensibles
+*.properties
+*.yml
+*.env
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+
+# Credenciales y claves privadas
+*.key
+*.pem
+*.p12
+
+# Logs y otros archivos temporales
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
